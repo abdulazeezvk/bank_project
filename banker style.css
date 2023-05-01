@@ -1,0 +1,731 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.green{
+    color: green;
+}
+.orangep{
+    background-color: orange;
+    color: white;
+    padding: 2%;
+    border-radius: 30px;
+    border: none;
+}
+.flex{
+    display: flex;
+}
+.form-control{
+    width: 100%;
+    height: 25px;
+    border-radius: 30px;
+    border: none;
+    padding: 0.375rem 0.75rem;
+}
+ul{
+    list-style: none;
+}
+.pic{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./baankermoblie.jpg);
+    box-shadow: inset 0 0 0 2000px hwb(42 80% 7% / 0.786);
+     background-size: cover;
+     background-position:center;
+}
+
+.container{
+    padding: 0 140px;
+    padding-bottom: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color:rgba(61, 61, 61, 0.555);
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.logo span{
+    color: red;
+}
+
+.menu ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+
+hr{
+    color:red;
+}
+
+.text{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.text h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 160px;
+}
+
+.text p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.text span{
+    font-size: 40px;
+}
+
+button.greendot{
+    height: 55px;
+    width: 30px;
+    border-radius: 20px;
+    margin-top: 60px;
+    border: none;
+    color: white;
+    background-color: green;
+    
+}
+
+/* img{
+  width: auto;  
+} */
+
+.imagesize{
+    height:160px;
+}
+
+.money h2{
+    font-size: 30px;
+}
+
+.money p{
+    font-family: sans-serif;
+    margin-left: 3px;
+}
+
+#value{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+    font-family: sans-serif;
+    text-align: center;  
+}
+
+
+#pic{
+    display: flex;
+    margin-top: auto;
+    margin-right:50px;
+}
+
+.pictext{
+    margin-left: 120px;
+    font-family: sans-serif;
+    
+}
+
+.pictext p{
+    margin-top: 10px;
+    color: GRAY;
+    
+}
+
+.correct{
+   
+    list-style: none;
+    line-height: 40px;
+    margin-top: 15px;
+    color: GRAY;
+
+}
+
+.search{
+    width: 140px;
+    height: 36px;
+    border-radius: 20px;
+    border:1px solid orange;
+    text-align: center;
+    font-size: 15px;
+}
+
+.eamil{
+    background-color: rgb(255, 119, 0);
+    color: white;
+    border: none;
+    width: 110px;
+    height: 36px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.about{
+    text-align: center;
+    padding-top: 90px;
+    font-family: sans-serif;
+}
+
+.about h1{
+    color: orange;
+    font-size: 40px; 
+    
+}
+.about p{
+    color: GRAY;
+    margin-top: 10px;
+}
+
+.computerman{
+    height: auto;
+    width: 40%;
+    margin-top: 30px;
+    
+}
+
+/* .we{
+  color: red;  */
+ 
+  .aboutpic{
+    width: 100%;
+    
+}
+
+.aboutpic img{
+    width: auto;
+    height: 300px;
+    padding: 0 140px;
+}
+
+.abouttext{
+    width: 1130px;
+   color: black;
+   padding-bottom:180px ;
+   font-family:sans-serif;
+   margin: 0 100px;
+   line-height: 1.7;
+   text-align: left;
+}
+
+.picman{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 128px;
+    
+}
+
+.abouttext h1{
+    padding: 20px;
+}
+
+.abouttext p{
+    color: gray;
+    padding-bottom: 10px;
+
+}
+
+     /* meet team */
+
+.meetteam{
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 10px;
+}
+
+.meetteam h1{
+    font-size: 40px;
+    color: orange;
+    padding-top: 90px;
+}
+
+.meetteam p{
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+
+}
+
+ /* people team picture  */
+
+#meetphoto{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.pg p{
+    color: gray;
+}
+
+/* this is Gallery collage  */
+
+.photoscollage{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    font-family: sans-serif;
+
+
+}
+
+.buttonbox{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+   
+}
+
+.button{
+    background-color: orange;
+    border: none;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 20px;   
+} 
+
+.button2{
+    background-color: LavenderBlush;
+    color: black;
+}
+
+     /* photos collage (pic collage group) */
+
+.collagebottom{
+   padding-bottom: 50px;
+}
+
+.collage1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+      /* How It Works  */
+
+.howwork{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.howwork p{
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 60px;
+
+}
+
+
+
+.tea1 img{
+    width: auto;
+    /* height: 300px; */
+    height: 388px;
+}
+
+.tea1{
+    /* margin: 0 auto; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 40px;
+
+}
+.gettext{
+    /* width: 700px; */
+    color: orange;
+    text-align: left;
+    /* margin: 0 100px; */
+    /* padding-bottom: 180px; */
+    font-size: 30px;
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gettext h1{
+   /* font-weight: 100px; */
+
+}
+
+.gettext p{
+    font-size: 20px;
+    line-height: 1.7em;
+    color: gray;
+}
+
+.buttonl {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    width: 20px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+      
+             /* Our Services */
+.our{
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+}
+#icons{
+    display: flex;
+    text-align: inherit;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    justify-content: center;
+    gap: 100px;
+}
+.piclogo h2{
+    padding-bottom: 20px;
+}
+.piclogo p{
+    color: gray;
+}
+
+.happy{
+    text-align: center;
+    font-family: sans-serif;
+   
+}
+.happy h1{
+    color: orange;
+    font-size: 50px;
+    /* padding-bottom: 50px; */
+    padding-top: 300px;
+}
+.happy p{
+    color: gray;
+    font-size: 25px;
+    padding-bottom: 300px;
+}
+
+       /* pricing box  */
+
+.print{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+
+.three{
+    text-align: center;
+    padding: 3% 4%;
+}
+.three p{
+    margin: 10px 0;
+}
+ul.right li{
+    margin-bottom: 10px;
+}
+
+.three span{
+    color: orange;
+    font-size: 3rem;
+}
+.three h3{
+    font-size: 1.75rem;
+    font-family: sans-serif;
+}
+#pricing{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#pricing div{
+    box-shadow: 10px 10px 10px 10px #f1d4d4;
+    /* box-shadow: 20px 20px 50px 15px grey; */
+}
+.buynow{
+    padding: 4% 10%;
+    border-radius: 50px;
+    background-color: grey;
+    border: none;
+    color: white;
+    cursor:pointer;
+}
+#buyorange{
+    background-color: orange;
+}
+/* Frequently Ask Questions  */
+
+.faq{
+    justify-content: center;
+    display: flex;
+    color: orange;
+    padding: 100px 0 40px 0;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+#read{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 60px;
+}
+
+#read h3{
+    padding-bottom: 20px;
+}
+.paper p{
+    color: gray;
+    line-height: 1.7em;
+}
+
+    /* pic and bankloan */
+
+#loan{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-bottom: 50px;
+}
+
+.picloan img{
+    width: auto;
+    height: 300px;
+    padding-right: 60px;
+}
+
+/* .picloan{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+} */
+
+.loantext{
+    font-family: sans-serif;
+
+}
+.loantext span{
+     color: orange;
+   
+}
+.loantext .flex{
+    gap: 20px;
+}
+.right{
+    padding-bottom: 20px;
+}
+.right p{
+    line-height: 1.7em;
+    color: gray;
+    padding-bottom: 10px;
+    
+}
+.left{
+    font-size: 260%;
+    color: orange;
+}
+
+         /* Our Blog */
+.ob{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: orange;
+}         
+#our{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+#our img{
+    width: auto;
+    height: 240px;
+}
+
+.blog h3,p{
+   margin-bottom: 10px;
+}
+
+.datetext{
+    display: flex;
+    /* justify-content: center; */
+    gap: 5px;
+}
+
+.blog p{
+    color: gray;
+}
+
+.blog span{
+    color: orange;
+}
+      
+           /* Contact Us */
+.Contact{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    color: orange;
+    font-size: 25px;
+}
+#address{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.addlogo i{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+     /* Contact Form */
+
+.with{
+    background-color: rgb(216, 236, 230);
+    padding: 3%;
+    box-shadow: 0 0.6rem 0.2rem 0.1rem #f5ebeb;
+}
+
+.newgp{
+    display: flex;
+    margin: 20px 0;
+   
+}
+.newgp .sn{
+    width: 100%;
+}
+.newgp div{
+    width: 50%;
+    padding: 0 15px;
+}
+input{
+    font-size: 20px;
+}
+.newgp textarea{
+    height: 177px;
+    width: 1435px
+}
+
+.sub{
+    background: orange;
+    border-radius: 30px;
+    border: none;
+}
+
+/* black box for footer */
+
+.whatcolor{
+    background: #343a40;
+    padding-bottom: 300px;
+}
+
+.fgroup{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+.ttt h3{
+    margin-bottom: 10px;
+}
+.ttt div input{
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 40px;
+    background: gray;
+    /* border: 1px soild white; */
+    text-align: center;
+    border-color: white;
+}
+.ttt div button{
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -1%;
+    height: 41px;
+    background: white;
+    /* border: 1px soild white; */
+    
+}
+
+.AUs{
+    color: gray;    
+}
+
+.ftil {
+    color: gray;
+}
+
+.idea a{
+    color: gray;
+    line-height: 2;
+    
+}
+
+.ee{
+    width: 100px;
+    height: 25px;
+    border: 2px solid white;
+    background: #767678;
+    border-radius: 20px;
+    text-align: center;
+    color: #343a40;
+    cursor: pointer;
+
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    padding-top: 100px;
+}
+
+#watermark-main{
+    padding-top: 2rem;
+}
+.footer-watermark{
+    border-top: 1px solid;
+    color: gray;
+
+}
